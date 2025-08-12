@@ -30,24 +30,17 @@ body{
     background-color: #e3f9ff;
 }
 
-/* Calculator Outer Container */
+/* Calculator Main Body */
 .container  .calculator{
     background-color: rgba(12, 9, 9, 0.938);
     padding: 10px;
     border-radius: 10px;
 }
 
-/* Calculator Main Body */
-.calculator  {
-    background-color: #3a4452;
-    padding: 20px;
-    border-radius: 10px;
-}
-
 /* Display Section */
 .calculator .display{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 20px 0;
 }
 
@@ -116,3 +109,4 @@ form input.operator{
         width:115px;
     }
 }
+
