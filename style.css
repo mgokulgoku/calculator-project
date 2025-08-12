@@ -7,6 +7,19 @@
     box-sizing: border-box;
 }
 
+/* Site Load Animation */
+body{
+    animation : load .4s ease;
+}
+@keyframes load {
+    from {
+          opacity: 0;transform: translateY(-10px);
+    }
+    end {
+          opacity: 1;transform: translateY(0);
+    }
+}
+
 /* Main Container Layout */
 .container{
     display: flex;
